@@ -11,7 +11,7 @@ initial-scale=1.0">
 </head>
 
 <body>
-    @extends('layouts.app')
+@extends('layouts.app')
 @section('content')
     <div class="container-sm mt-5">
         <form action="{{ route('employees.store') }}" method="POST">
